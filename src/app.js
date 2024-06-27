@@ -1,7 +1,7 @@
 // app.js
 const express = require('express');
 const app = express();
-const PORT = 8081;
+const port = 8081;
 
 const knex = require('knex')(require('../knexfile.js')['development']); 
 
